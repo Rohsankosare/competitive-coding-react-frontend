@@ -11,7 +11,8 @@ const endPoints = {
     jobStatus:REACT_APP_BASE_URL+"/api/runtimeenv/status",
     logOut:REACT_APP_BASE_URL +"/api/auth/logout",
     getPost:REACT_APP_BASE_URL+"/api/post/getpost",
-    postComment:REACT_APP_BASE_URL+"/api/post/createcomment"
+    postComment:REACT_APP_BASE_URL+"/api/post/createcomment",
+    createProblem:REACT_APP_BASE_URL+"/api/problems/createproblem",
 
 }
 
