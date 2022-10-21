@@ -13,6 +13,8 @@ const endPoints = {
     getPost:REACT_APP_BASE_URL+"/api/post/getpost",
     postComment:REACT_APP_BASE_URL+"/api/post/createcomment",
     createProblem:REACT_APP_BASE_URL+"/api/problems/createproblem",
+    getProblems:REACT_APP_BASE_URL+"/api/problems/getproblems",
+    getProblem:REACT_APP_BASE_URL+"/api/problems/getproblem",
 
 }
 

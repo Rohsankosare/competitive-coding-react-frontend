@@ -10,6 +10,7 @@ import Projects from "./components/projects/Projects";
 import PostInfo from "./components/postInfo/PostInfo";
 import MyProfilePage from "./components/profileP/MyProfilePage";
 import CreateProblem from "./components/createProblem/CreateProblem";
+import ProblemInfo from "./components/problems/ProblemInfo"
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/codeeditor" element={<CodeEditor />}></Route>
           <Route path="/myprofile" element={<MyProfilePage/>}></Route>
           <Route path="/createproblem" element={<CreateProblem/>}></Route>
+          <Route path="/problem" element={<ProblemInfo/>}></Route>
 
         </Routes>
       </div>

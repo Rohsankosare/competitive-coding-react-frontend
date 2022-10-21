@@ -12,7 +12,7 @@ const CreatePost = ({ open, onClose }) => {
   //// handle post sumbit  function
   const handlePost = async (e) => {
     e.preventDefault();
-    console.log("run");
+    
     setpostButtonDiabled(true);
     const payload = {
       postTitle: title,
@@ -29,9 +29,7 @@ const CreatePost = ({ open, onClose }) => {
   };
 
   //function to add markdown to textarea
-  const setMarkdownToTextArea = (text)=>{
-    setPostBody(postBody.concat(text));
-  }
+ 
 
   useEffect(() => {
     if (title === "" || tags === "" || postBody === "")
